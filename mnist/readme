@@ -1,0 +1,2 @@
+conda create -n mnist-env python=3.10 -y
+conda install pytorch==2.5.0 torchvision==0.20.0 torchaudio==2.5.0 pytorch-cuda=12.4 -c pytorch -c nvidia
